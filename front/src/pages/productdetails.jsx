@@ -18,7 +18,7 @@ function ProductDetails() {
             .then((data) => {
                 setProduct(data);
 
-                // Set the displayed price to the price of the first declinaison, if available
+                
                 if (data.declinaisons && data.declinaisons.length > 0) {
                     const firstDeclinaison = data.declinaisons[0];
                     setDisplayedPrice(

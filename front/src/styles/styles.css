@@ -19,7 +19,7 @@ header {
     margin:0;
     min-height: calc(100vh - 125px);
     display: flex;
-    background-image: url("../img/images-art.png");
+    background-image: url("images/images-art.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
